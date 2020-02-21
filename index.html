@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Table Manipulating</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div id="table-layout">
+      <form id="add-row">
+        <input type="text" name="name" value="" />
+        <input type="text" name="name" value="" />
+        <input type="text" name="name" value="" />
+        <input type="submit" name="" value="Submit" />
+      </form>
+      <div id="table-container">
+        <table id="table" style="width:100%">
+          <thead>
+            <tr>
+              <th>
+                <span>First Name</span
+                ><i style="margin:10px" class="sort-icon fas fa-sort"></i>
+              </th>
+              <th>
+                <span>Last Name</span
+                ><i style="margin:10px" class="sort-icon fas fa-sort"></i>
+              </th>
+              <th>
+                <span>Age</span
+                ><i style="margin:10px" class="sort-icon fas fa-sort"></i>
+              </th>
+              <th><span>Delete</span></th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./index.js"></script>
+</html>
